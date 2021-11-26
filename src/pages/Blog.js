@@ -11,7 +11,7 @@ export default function Blog() {
 
 
 
-	<div class="latest-news-section">
+	{/* <div class="latest-news-section">
 		<div class="ln-title">Latest News</div>
 		<div class="news-ticker">
 			<div class="news-ticker-contant">
@@ -21,7 +21,7 @@ export default function Blog() {
 			</div>
 		</div>
 	</div>
-
+ */}
 
 
 
@@ -30,8 +30,8 @@ export default function Blog() {
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-5 col-lg-6 text-white">
-						<h2>Video Gallery</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum.</p>
+						<h2>Roadmap</h2>
+						<p>Everything you need to know about the Roadmap</p>
 					</div>
 				</div>
 			</div>
@@ -41,7 +41,7 @@ export default function Blog() {
 
 
 
-	<section class="page-section recent-game-page spad">
+	{/* <section class="page-section recent-game-page spad">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8">
@@ -273,7 +273,7 @@ export default function Blog() {
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> */}
 
 
 
@@ -281,41 +281,47 @@ export default function Blog() {
 	<section class="footer-top-section">
 		<div class="container">
 			<div class="footer-top-bg">
-				<img src="img/footer-top-bg.png" alt=""/>
+				<img src="assets/img/swords.png" style={{height: "580px"}} alt=""/>
 			</div>
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="footer-logo text-white">
-						<img src="img/footer-logo.png" alt=""/>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+						{/* <img src="assets/img/footer-logo.png" alt=""/> */}
+						<p></p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-widget mb-5 mb-md-0">
-						<h4 class="fw-title">Latest Posts</h4>
-						<div class="latest-blog">
+						<h4 class="fw-title" style={{color: "#a5682a"}}>Links</h4>
+						<div class="latest-blog" >
 							<div class="lb-item">
-								<div class="lb-thumb set-bg" data-setbg="img/latest-blog/1.jpg"></div>
-								<div class="lb-content">
-									<div class="lb-date">June 21, 2018</div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum </p>
-									<a href="#" class="lb-author">By Admin</a>
+								<div ></div>
+								<div>					
+									<a href="#" class="lb-author" style={{color: "white"}}>Home</a>
 								</div>
 							</div>
 							<div class="lb-item">
-								<div class="lb-thumb set-bg" data-setbg="img/latest-blog/2.jpg"></div>
-								<div class="lb-content">
-									<div class="lb-date">June 21, 2018</div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum </p>
-									<a href="#" class="lb-author">By Admin</a>
+								<div ></div>
+								<div>					
+									<a href="#" class="lb-author" style={{color: "white"}}>Docs</a>
 								</div>
 							</div>
 							<div class="lb-item">
-								<div class="lb-thumb set-bg" data-setbg="img/latest-blog/3.jpg"></div>
-								<div class="lb-content">
-									<div class="lb-date">June 21, 2018</div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum </p>
-									<a href="#" class="lb-author">By Admin</a>
+								<div ></div>
+								<div>					
+									<a href="#" class="lb-author" style={{color: "white"}}>Roadmap</a>
+								</div>
+							</div>
+							<div class="lb-item">
+								<div ></div>
+								<div>					
+									<a href="#" class="lb-author" style={{color: "white"}}>Whitepaper</a>
+								</div>
+							</div>
+							<div class="lb-item">
+								<div ></div>
+								<div>					
+									<a href="#" class="lb-author" style={{color: "white"}}>Help</a>
 								</div>
 							</div>
 						</div>
@@ -323,35 +329,23 @@ export default function Blog() {
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-widget">
-						<h4 class="fw-title">Top Comments</h4>
+						<h4 class="fw-title" style={{color: "#a5682a"}}>Social Links</h4>
 						<div class="top-comment">
 							<div class="tc-item">
-								<div class="tc-thumb set-bg" data-setbg="img/authors/1.jpg"></div>
-								<div class="tc-content">
-									<p><a href="#">James Smith</a> <span>on</span>  Lorem ipsum dolor sit amet, co</p>
-									<div class="tc-date">June 21, 2018</div>
-								</div>
+								<a href="#" class="lb-author" style={{color: "white"}}><i class="fa fa-facebook" style={{marginRight: "10px"}}></i>Facebook</a>
 							</div>
 							<div class="tc-item">
-								<div class="tc-thumb set-bg" data-setbg="img/authors/2.jpg"></div>
-								<div class="tc-content">
-									<p><a href="#">James Smith</a> <span>on</span>  Lorem ipsum dolor sit amet, co</p>
-									<div class="tc-date">June 21, 2018</div>
-								</div>
+								<a href="#" class="lb-author" style={{color: "white"}}><i class="fa fa-telegram" style={{marginRight: "10px"}}></i>Telegram</a>
 							</div>
 							<div class="tc-item">
-								<div class="tc-thumb set-bg" data-setbg="img/authors/3.jpg"></div>
-								<div class="tc-content">
-									<p><a href="#">James Smith</a> <span>on</span>  Lorem ipsum dolor sit amet, co</p>
-									<div class="tc-date">June 21, 2018</div>
-								</div>
+								<a href="#" class="lb-author" style={{color: "white"}}><i class="fa fa-twitter" style={{marginRight: "10px"}}></i>Twitter</a>
+							</div>
+							
+							<div class="tc-item">
+								<a href="#" class="lb-author" style={{color: "white"}}><i class="fab" style={{marginRight: "10px"}}></i>Discord</a>
 							</div>
 							<div class="tc-item">
-								<div class="tc-thumb set-bg" data-setbg="img/authors/4.jpg"></div>
-								<div class="tc-content">
-									<p><a href="#">James Smith</a> <span>on</span>  Lorem ipsum dolor sit amet, co</p>
-									<div class="tc-date">June 21, 2018</div>
-								</div>
+								<a href="#" class="lb-author" style={{color: "white"}}><i style={{marginRight: "10px"}}></i></a>
 							</div>
 						</div>
 					</div>

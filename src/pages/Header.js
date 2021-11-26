@@ -7,11 +7,12 @@ export default function Header() {
         <header class="header-section">
 		<div class="container">
 
-			<a class="site-logo" href="index.html">
-				<img src="assets/img/logo.png" alt=""/>
+			<a class="site-logo" href="/" style={{fontSize: "20px", fontFamily: "sans-serif", color: "#ffb320"}}>
+				TREASURE TOWN LOGO
+				{/* <img src="assets/img/logo.png" alt=""/> */}
 			</a>
 			<div class="user-panel">
-				<a href="#">Login</a>  /  <a href="#">Register</a>
+				<a href="#">PLAY NOW</a>
 			</div>
 
 			<div class="nav-switch">
@@ -21,10 +22,10 @@ export default function Header() {
 			<nav class="main-menu">
                 <ul>
                     <li><Link to="/">Home</Link></li>
-					<li><Link to="/review">Review</Link></li>
-					<li><Link to="/blog">Blog</Link></li>
-					<li><Link to="/forum">Forum</Link></li>
-					<li><Link to="/contact">Contact</Link></li>
+					<li><Link to="/review">Docs</Link></li>
+					<li><Link to="/blog">Roadmap</Link></li>
+					<li><Link to="/forum">Whitepaper</Link></li>
+					<li><Link to="/contact">Help</Link></li>
 				</ul>
 			</nav>
 		</div>
