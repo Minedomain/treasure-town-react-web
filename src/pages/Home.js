@@ -3,9 +3,6 @@ import Navbar from '../components/Navbar/Navbar'
 import Footer from './Footer'
 import Slider from 'react-slick'
 
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-
 export default class Home extends Component {
 	render() {
 		const settings = {

@@ -5,7 +5,7 @@ import {AiOutlineQuestionCircle} from 'react-icons/ai'
 import {HiOutlineCheckCircle} from 'react-icons/hi'
 
 export const Nav = styled.nav`
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.7);
   height: 70px;
   display: flex;
   justify-content: center;
@@ -118,7 +118,7 @@ font-weight: bold;
 transition: all 0.2s ease-in;
 
 &:hover {
-    color: yellow;
+    color: #DDB376;
 }
 
 

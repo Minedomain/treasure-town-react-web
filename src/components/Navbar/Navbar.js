@@ -30,7 +30,7 @@ const Navbar = () => {
       </Hamburger>
       <Menu>
           <MenuLink to="/">Home</MenuLink>
-          <MenuLink to="/review">Documents</MenuLink>
+          <MenuLink to="/review">Marketplace</MenuLink>
           <MenuLink to="/blog">Roadmap</MenuLink>
           <MenuLink to="/forum">Whitepaper</MenuLink>
           <MenuLink to="/contact">Help</MenuLink>
