@@ -1,12 +1,11 @@
 import React from 'react'
-import Header from './Header'
+import Navbar from '../components/Navbar/Navbar'
 import Footer from './Footer'
 
-export default function Blog() {
+export default function Contact() {
     return (
         <React.Fragment>
-
-<Header />
+<Navbar />
 
 
 

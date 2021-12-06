@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Header from './Header'
+import Navbar from '../components/Navbar/Navbar'
 import Footer from './Footer'
 import Slider from 'react-slick'
 
@@ -19,7 +19,7 @@ export default class Home extends Component {
 		  };
     return (
         <React.Fragment>
-            <Header />
+<Navbar />
 
 		<section class="hero-section">
 			<div class="hero-slider owl-carousel">

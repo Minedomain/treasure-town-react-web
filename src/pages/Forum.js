@@ -1,13 +1,14 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import Navbar from '../components/Navbar/Navbar'
 
 export default function Forum() {
     return (
         <React.Fragment>
 
 
-<Header />
+<Navbar />
 
 
 {/* 
