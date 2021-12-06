@@ -18,6 +18,7 @@ export const Nav = styled.nav`
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   border-bottom: 2px solid gray;
+  margin-top: -70px;
   
   @media screen and (max-width: 1060px) {
       transition: 0.8s all ease;
