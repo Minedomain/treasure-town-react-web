@@ -38,7 +38,7 @@ export default function Review() {
 	</section>
      */}
 
-
+{/* 
 
 	<section class="page-section review-page spad">
 		<div class="container">
@@ -48,7 +48,7 @@ export default function Review() {
 						<div class="review-cover set-bg" src="assets/img/kraken.jpg">
 							<img src="assets/img/kraken.jpg"/>
 							{/* <div class="score yellow">9.3</div> */}
-						</div>
+						{/* </div>
 						<div class="review-text">
 							<h4>Kraken Slayer</h4>
 							<div class="rating">
@@ -70,7 +70,7 @@ export default function Review() {
 						<div class="review-cover set-bg" data-setbg="img/galleon.png">
 							<img src="assets/img/galleon racing.jpg"/>
 							{/* <div class="score yellow">9.3</div> */}
-						</div>
+						{/* </div>
 						<div class="review-text">
 							<h4>Galleon Race</h4>
 							<div class="rating">
@@ -86,66 +86,20 @@ export default function Review() {
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</div> */}
+	{/* </section> */} 
     
 
 
-	<section class="review-section review-dark spad set-bg" data-setbg="img/review-bg-2.jpg">
+	<section class="review-section spad set-bg" data-setbg="img/review-bg-2.jpg">
 		<div class="container">
-			<div class="section-title text-white">
-				<div class="cata new">Upcoming Games</div>
-				<h2>Recent Reviews</h2>
-			</div>
-			<div class="row text-white">
-				<div class="col-lg-3 col-md-6">
-					<div class="review-item">
-						<div class="review-cover set-bg" data-setbg="img/review/1.jpg">
-							{/* <div class="score yellow">9.3</div> */}
-						</div>
-						<div class="review-text">
-							<h5 style={{color: "#ffb320"}}>PEARL DIVER</h5>
-							<p>Sample Caption</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="review-item">
-						<div class="review-cover set-bg" data-setbg="img/review/2.jpg">
-							{/* <div class="score purple">9.5</div> */}
-						</div>
-						<div class="review-text">
-							<h5 style={{color: "#ffb320"}}>ULAM FINDER</h5>
-							<p>Sample Caption</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="review-item">
-						<div class="review-cover set-bg" data-setbg="img/review/3.jpg">
-							{/* <div class="score green">9.1</div> */}
-						</div>
-						<div class="review-text">
-							<h5 style={{color: "#ffb320"}}>GAME 3</h5>
-							<p>Sample Caption</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="review-item">
-						<div class="review-cover set-bg" data-setbg="img/review/4.jpg">
-							{/* <div class="score pink">9.7</div> */}
-						</div>
-						<div class="review-text">
-							<h5 style={{color: "#ffb320"}}>GAME 4</h5>
-							<p>Sample Caption</p>
-						</div>
-					</div>
-				</div>
+			<div class="section-title">
+				<div class="cata new"></div>
+				<h2>MARKETPLACE</h2>
 			</div>
 		</div>
 	</section>
-    
+     
 
 
 	<section class="footer-top-section">
@@ -173,7 +127,7 @@ export default function Review() {
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Docs</a>
+									<a href="#" class="lb-author" style={{color: "white"}}>Marketplace</a>
 								</div>
 							</div>
 							<div class="lb-item">

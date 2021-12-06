@@ -24,7 +24,7 @@ export default function Forum() {
 
 
 
-	<section class="page-info-section set-bg" data-setbg="img/page-top-bg/4.jpg">
+	{/* <section class="page-info-section set-bg" data-setbg="img/page-top-bg/4.jpg">
 		<div class="pi-content">
 			<div class="container">
 				<div class="row">
@@ -35,9 +35,18 @@ export default function Forum() {
 				</div>
 			</div>
 		</div>
+	</section> */}
+
+
+
+	<section class="page-info-section spad set-bg" data-setbg="img/page-top-bg/1.jpg">
+			<div class="container">
+				<div class="section-title">
+					<div class="cata new"></div>
+					<h2>WHITEPAPER</h2>
+				</div>
+			</div>
 	</section>
-
-
 
 	{/* <section class="page-section community-page set-bg" data-setbg="img/community-bg.jpg">
 		<div class="community-warp spad">
@@ -167,7 +176,7 @@ export default function Forum() {
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Docs</a>
+									<a href="#" class="lb-author" style={{color: "white"}}>Marketplace</a>
 								</div>
 							</div>
 							<div class="lb-item">

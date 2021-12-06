@@ -54,7 +54,7 @@ h6 {
 
 p {
 	font-size: 14px;
-	color: #878787;
+	color: black;
 	line-height: 2;
 }
 
@@ -88,6 +88,7 @@ ol {
 .section-title {
 	text-align: center;
 	margin-bottom: 75px;
+	padding-bottom: 100px;
 }
 
 .section-title h2 {
@@ -136,13 +137,13 @@ ol {
 	display: inline-block;
 	text-align: center;
 	font-size: 15px;
-	color: #131313;
+	color: #5F534B;
 	padding: 16px 30px;
 	min-width: 153px;
 	border-radius: 50px;
 	font-weight: 500;
 	border: none;
-	background: #ffb320;
+	background: #F43900;
 	cursor: pointer;
 }
 
@@ -165,7 +166,7 @@ ol {
 }
 
 .cata.new {
-	background: #ffb320;
+	background: #F43900;
 }
 
 .cata.strategy {
@@ -248,7 +249,7 @@ ol {
 ---------------------*/
 
 .header-section {
-	background: #131313;
+	background: #272119;
 	clear: both;
 	overflow: hidden;
 	padding: 18px 0;
@@ -264,7 +265,7 @@ ol {
 .user-panel {
 	float: right;
 	font-weight: 500;
-	background: #ffb320;
+	background: #DDB376;
 	padding: 8px 28px;
 	border-radius: 30px;
 }
@@ -297,7 +298,7 @@ ol {
 }
 
 .main-menu ul li a:hover {
-	color: #ffb320;
+	color: #DDB376;
 }
 
 .header-btn {
@@ -574,14 +575,15 @@ ol {
 ------------------------*/
 
 .tournaments-section {
-	/* background-image: url("../img/garden.jpg"); */
-	background-repeat: no-repeat;
+	/* background-image: url("../img/bg.jpg"); */
+	background-size:cover;
+	background-color: #DDB376;
 }
 
 .tournament-title {
 	display: inline-block;
 	padding: 7px 25px;
-	font-size: 12px;
+	font-size: 18px;
 	font-weight: 500;
 	color: #fff;
 	text-transform: uppercase;
@@ -589,17 +591,19 @@ ol {
 }
 
 .tournament-item {
-	background: #252525;
+	background: transparent;
+	color: #131313;
 }
 
 .tournament-item .ti-notic {
 	display: inline-block;
 	padding: 8px 21px;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: 500;
-	color: #131313;
+	color: #DDB376;
 	text-transform: uppercase;
-	background: #ffb320;
+	background: #F43900;
+	
 }
 
 .tournament-item .ti-content {
@@ -612,7 +616,6 @@ ol {
 	width: 168px;
 	height: 178px;
 	margin-top: -150px;
-	justify-content: center;
 }
 
 .tournament-item .ti-text {
@@ -620,7 +623,9 @@ ol {
 }
 
 .tournament-item .ti-text h4 {
-	color: #ffb320;
+	color: black;
+	font-weight:bolder;
+	font-size: 45px;
 	margin-bottom: 20px;
 }
 
@@ -630,24 +635,27 @@ ol {
 }
 
 .tournament-item .ti-text ul li {
-	color: #fff;
-	font-size: 18px;
+	color: black;
+	font-size: 22px;
 	margin-bottom: 6px;
 }
 
 .tournament-item .ti-text ul li span {
-	color: #9a9a9a;
-	font-size: 18px;
+	color: black;
+	font-size: 22px;
+	font-weight: bold;
+	justify-content: left;
+	align-items: left;
 }
 
 .tournament-item .ti-text p {
-	font-size: 18px;
+	font-size: 22px;
 	margin-bottom: 0;
 }
 
 .tournament-item .ti-text p span {
-	font-weight: 500;
-	color: #ffb320;
+	font-weight: bolder;
+	color: black;
 }
 
 /*----------------------
@@ -656,7 +664,8 @@ ol {
 
 .review-section {
 	background-position: right top;
-	
+	/* background-image: url("../img/bg.jpg"); */
+	background-color: #DDB376;
 }
 
 .review-item .review-cover {
@@ -723,9 +732,10 @@ ol {
 ------------------------*/
 
 .footer-top-section {
-	background-image: url("../img/map.jpg");
+	/* background-image: url("../img/backimage.jpg"); */
+	background-color: #5D321E;
 	background-size:cover;
-	background-repeat:repeat;
+	background-repeat: no-repeat;
 	padding: 72px 0px;
 }
 
@@ -746,12 +756,12 @@ ol {
 
 .footer-widget {
 	padding: 40px 30px 7px;
-	background: #252525;
-	border: 1px solid #4a4a4a;
+	background: #272119;
+	border: 2px solid #5F534B;
 }
 
 .footer-widget .fw-title {
-	color: #fff;
+	color: #DDB376;
 	margin-bottom: 40px;
 }
 
@@ -834,7 +844,7 @@ ol {
 .footer-section {
 	padding: 18px 0 16px;
 	overflow: hidden;
-	background: #252525;
+	background: #272119;
 }
 
 .footer-menu {
@@ -850,7 +860,7 @@ ol {
 	display: inline-block;
 	font-size: 14px;
 	font-weight: 500;
-	color: #aeaeae;
+	color: #DDB376;
 	margin-left: 30px;
 }
 
@@ -858,17 +868,23 @@ ol {
 	float: left;
 	margin-bottom: 0;
 	font-weight: 500;
-	color: #aeaeae;
+	color: #DDB376;
 }
 
 /*------------------
   Other Pages
 --------------------
 ====================*/
-
+.page-background {
+	background-position: center top;
+	background-color: #DDB376;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../img/sc.png");
+}
 .page-info-section {
-	height: 499px;
-	position: relative;
+	background-position: right top;
+	background-color: #DDB376;
 }
 
 .page-info-section .pi-content {
@@ -1092,7 +1108,7 @@ ol {
 .comment-form textarea {
 	width: 100%;
 	height: 41px;
-	border: 1px solid #d6dee7;
+	border: 1px solid #5F534B;
 	padding-left: 22px;
 	padding-right: 45px;
 	font-size: 12px;
@@ -1240,11 +1256,11 @@ ol {
 	float: left;
 	font-size: 16px;
 	font-weight: 700;
-	color: #ffb320;
+	color: #F43900;
 }
 
 .contact-info-list .cf-right {
-	color: #878787;
+	color: black;
 	font-size: 15px;
 	padding-left: 100px;
 }
@@ -1535,7 +1551,7 @@ ol {
 	bottom: 100%;
 	left: 0;
 	right: 0;
-	background-color: #a5682a;
+	background-color: #F43900;
 	overflow: hidden;
 	width: 100%;
 	height: 0;
@@ -1576,7 +1592,7 @@ ol {
 	bottom: 100%;
 	left: 0;
 	right: 0;
-	background-color: #a5682a;
+	background-color: #F43900;
 	overflow: hidden;
 	width: 100%;
 	height: 0;
@@ -1617,7 +1633,7 @@ ol {
 	bottom: 100%;
 	left: 0;
 	right: 0;
-	background-color: #a5682a;
+	background-color: #F43900;
 	overflow: hidden;
 	width: 100%;
 	height: 0;
@@ -1630,6 +1646,47 @@ ol {
   }
   
   .text4 {
+	white-space: nowrap; 
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+  }
+
+  .container5 {
+	position: relative;
+	margin-bottom: 15px;
+	width: 100%;
+  }
+  
+  .image5 {
+	display: block;
+	width: 100%;
+	height: auto;
+  }
+  
+  .overlay5 {
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	right: 0;
+	background-color: #F43900;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .4s ease;
+  }
+  
+  .container5:hover .overlay5 {
+	bottom: 0;
+	height: 100%;
+  }
+  
+  .text5 {
 	white-space: nowrap; 
 	color: white;
 	font-size: 20px;

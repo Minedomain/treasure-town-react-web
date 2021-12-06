@@ -7,7 +7,7 @@ export default function Header() {
         <header class="header-section">
 		<div class="container">
 
-			<a class="site-logo" href="/" style={{fontSize: "20px", fontFamily: "sans-serif", color: "#ffb320"}}>
+			<a class="site-logo" href="/" style={{fontSize: "20px", fontFamily: "sans-serif", color: "#DDB376"}}>
 				TREASURE TOWN LOGO
 				{/* <img src="assets/img/logo.png" alt=""/> */}
 			</a>
@@ -22,7 +22,7 @@ export default function Header() {
 			<nav class="main-menu">
                 <ul>
                     <li><Link to="/">Home</Link></li>
-					<li><Link to="/review">Docs</Link></li>
+					<li><Link to="/review">Marketplace</Link></li>
 					<li><Link to="/blog">Roadmap</Link></li>
 					<li><Link to="/forum">Whitepaper</Link></li>
 					<li><Link to="/contact">Help</Link></li>

@@ -1,37 +1,48 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import Slider from 'react-slick'
 
-export default function Home() {
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
+export default class Home extends Component {
+	render() {
+		const settings = {
+			dots: true,
+			infinite: true,
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			autoplay: true,
+			speed: 2000,
+			autoplaySpeed: 2000,
+		  };
     return (
         <React.Fragment>
             <Header />
 
-	<section class="hero-section">
-		<div class="hero-slider owl-carousel">
-			<div class="hs-item set-bg" data-setbg="assets/img/slider-1.jpg">
-				<div class="hs-text">
-					<div class="container">
-						<h2>The Best <span>Games</span> Out There</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-						<a href="#" class="site-btn">Read More</a>
+		<section class="hero-section">
+			<div class="hero-slider owl-carousel">
+				<div class="hs-item set-bg" data-setbg="assets/img/slider-1.jpg">
+					<div class="hs-text">
+						<div class="container">
+							<h2>The Best <span>Games</span> Out There</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+							<a href="#" class="site-btn">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div class="hs-item set-bg" data-setbg="assets/img/slider-2.jpg">
+					<div class="hs-text">
+						<div class="container">
+							<h2>The Best <span>Games</span> Out There</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<a href="#" class="site-btn">Read More</a>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="hs-item set-bg" data-setbg="assets/img/slider-2.jpg">
-				<div class="hs-text">
-					<div class="container">
-						<h2>The Best <span>Games</span> Out There</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-						<a href="#" class="site-btn">Read More</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-
+		</section>
 
 	{/* <div class="latest-news-section">
 		<div class="ln-title">Latest News</div>
@@ -45,7 +56,7 @@ export default function Home() {
 	</div> */}
 
 
-
+{/* 
 	<section class="feature-section spad">
 		<div class="container">
 			<div class="row" >
@@ -71,11 +82,11 @@ export default function Home() {
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> */}
 
 
 
-	<section class="recent-game-section spad set-bg" data-setbg="assets/img/recent-game-bg.png">
+	{/* <section class="recent-game-section spad set-bg" data-setbg="assets/img/recent-game-bg.png">
 		<div class="container">
 			<div class="section-title">
 				<div class="cata new"></div>
@@ -99,20 +110,48 @@ export default function Home() {
 					</div>	
 				</div>
 			</div>
+		</div> */}
+	{/* </section> */}
+
+	<section class="review-section spad">
+	<div class="container-xl" style={{marginLeft: "100px", marginRight: "100px"}}>
+		<div class="section-title">
+				<div class="cata new"></div>
+				<h2>TREASURE TOWN GAMES</h2>
+			</div>
+        <Slider {...settings} style={{marginTop: "-100px"}}>
+          <div class="col">
+            <img src="assets/img/galleon racing.jpg" alt=""/>
+          </div>
+          <div class="col">
+		  	<img src="assets/img/kraken.jpg" alt=""/>
+          </div>
+          <div class="col">
+		  <img src="assets/img/galleon racing.jpg" alt=""/>
+          </div>
+          <div class="col">
+		  <img src="assets/img/kraken.jpg" alt=""/>
+          </div>
+          <div class="col">
+		  <img src="assets/img/galleon racing.jpg" alt=""/>
+          </div>
+          <div class="col">
+		  <img src="assets/img/kraken.jpg" alt=""/>
+          </div>
+        </Slider>
 		</div>
 	</section>
 
-
-
-	<section class="tournaments-section spad">
+	<section class="tournaments-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<div class="tournament-item mb-4 mb-lg-0">
-						<div class="ti-notic">TOKENOMICS</div>
+					<div class="tournament-item">
+						
 						<div class="ti-content">
 							<div class="ti-thumb set-bg" data-setbg="assets/img/tournament/1.jpg"></div>
-							<div class="ti-text">
+							<div class="ti-text" style={{justifyContent: "left", textAlign: "left"}}> 
+							<div class="ti-notic">TOKENOMICS</div>
 								<h4>$SQUAWK</h4>
 								<ul>
 									<li><span>Name:</span> Treasure Town</li>
@@ -121,14 +160,14 @@ export default function Home() {
 									<li><span>Contract:</span></li>
 									<li><span>Swap:</span></li>
 								</ul>
-								<p><span>Updated Value:</span></p>
+								{/* <p><span>Updated Value:</span></p> */}
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div style={{marginTop: "-50px"}}>
-						<img src="assets/img/trial2.gif" style={{padding: "100px"}} alt="Avatar" class="image"/>
+						<img src="assets/img/toucan w stroke.png" style={{padding: "100px"}} alt="Avatar" class="image"/>
 					</div>
 				</div>
 			</div>
@@ -138,14 +177,14 @@ export default function Home() {
 
 
 
-	<section class="review-section spad set-bg" data-setbg="assets/img/review-bg.png">
-		<div class="container">
+	<section class="review-section" data-setbg="assets/img/review-bg.png">
+		<div class="container-xl" style={{marginLeft: "100px", marginRight: "100px", paddingBottom: "100px"}}>
 			<div class="section-title">
 				<div class="cata new"></div>
 				<h2>OUR TEAM</h2>
 			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
+			<div class="row" style={{marginTop: "-100px"}}>
+				<div class="col-md-3">
 					<div class="container2">
 						<img src="assets/img/img_avatar.png" alt="Avatar" class="image"/>
 						<div class="overlay2">
@@ -153,7 +192,7 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
+				<div class="col-md-3">
 					<div class="container3">
 						<img src="assets/img/img_avatar.png" alt="Avatar" class="image"/>
 						<div class="overlay3">
@@ -161,11 +200,53 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
+				<div class="col-md-3">
 					<div class="container4">
 						<img src="assets/img/img_avatar.png" alt="Avatar" class="image"/>
 						<div class="overlay4">
 							<div class="text4">TRY</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="container5">
+						<img src="assets/img/img_avatar.png" alt="Avatar" class="image"/>
+						<div class="overlay5">
+							<div class="text5">TRY</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="container2">
+						<img src="assets/img/img_avatar.png" alt="Avatar" class="image"/>
+						<div class="overlay2">
+							<div class="text2">TRY</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="container3">
+						<img src="assets/img/img_avatar.png" alt="Avatar" class="image"/>
+						<div class="overlay3">
+							<div class="text3">TRY</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="container4">
+						<img src="assets/img/img_avatar.png" alt="Avatar" class="image"/>
+						<div class="overlay4">
+							<div class="text4">TRY</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="container5">
+						<img src="assets/img/img_avatar.png" alt="Avatar" class="image"/>
+						<div class="overlay5">
+							<div class="text5">TRY</div>
 						</div>
 					</div>
 				</div>
@@ -190,36 +271,36 @@ export default function Home() {
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-widget mb-5 mb-md-0">
-						<h4 class="fw-title" style={{color: "#a5682a"}}>Links</h4>
+						<h4 class="fw-title" style={{color: "#DDB376"}}>Links</h4>
 						<div class="latest-blog" >
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Home</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376"}}>Home</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Docs</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376"}}>Marketplace</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Roadmap</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376"}}>Roadmap</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Whitepaper</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376"}}>Whitepaper</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Help</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376"}}>Help</a>
 								</div>
 							</div>
 						</div>
@@ -227,23 +308,23 @@ export default function Home() {
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-widget">
-						<h4 class="fw-title" style={{color: "#a5682a"}}>Social Links</h4>
+						<h4 class="fw-title" style={{color: "#DDB376"}}>Social Links</h4>
 						<div class="top-comment">
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i class="fa fa-facebook" style={{marginRight: "10px"}}></i>Facebook</a>
+								<a href="#" class="lb-author" style={{color: "#DDB376"}}><i class="fa fa-facebook" style={{marginRight: "10px"}}></i>Facebook</a>
 							</div>
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i class="fa fa-telegram" style={{marginRight: "10px"}}></i>Telegram</a>
+								<a href="#" class="lb-author" style={{color: "#DDB376"}}><i class="fa fa-telegram" style={{marginRight: "10px"}}></i>Telegram</a>
 							</div>
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i class="fa fa-twitter" style={{marginRight: "10px"}}></i>Twitter</a>
+								<a href="#" class="lb-author" style={{color: "#DDB376"}}><i class="fa fa-twitter" style={{marginRight: "10px"}}></i>Twitter</a>
 							</div>
 							
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i class="fab" style={{marginRight: "10px"}}></i>Discord</a>
+								<a href="#" class="lb-author" style={{color: "#DDB376"}}><i class="fab" style={{marginRight: "10px"}}></i>Discord</a>
 							</div>
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i style={{marginRight: "10px"}}></i></a>
+								<a href="#" class="lb-author" style={{color: "#DDB376"}}><i style={{marginRight: "10px"}}></i></a>
 							</div>
 						</div>
 					</div>
@@ -255,4 +336,5 @@ export default function Home() {
 <Footer />
         </React.Fragment>
     )
+}
 }

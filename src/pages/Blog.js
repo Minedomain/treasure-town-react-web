@@ -25,17 +25,13 @@ export default function Blog() {
 
 
 
-	<section class="page-info-section set-bg" data-setbg="img/page-top-bg/1.jpg">
-		<div class="pi-content">
+	<section class="page-info-section spad set-bg" data-setbg="img/page-top-bg/1.jpg">
 			<div class="container">
-				<div class="row">
-					<div class="col-xl-5 col-lg-6 text-white">
-						<h2>Roadmap</h2>
-						<p>Everything you need to know about the Roadmap</p>
-					</div>
+				<div class="section-title">
+					<div class="cata new"></div>
+					<h2>ROADMAP</h2>
 				</div>
 			</div>
-		</div>
 	</section>
 
 
@@ -303,7 +299,7 @@ export default function Blog() {
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Docs</a>
+									<a href="#" class="lb-author" style={{color: "white"}}>Marketplace</a>
 								</div>
 							</div>
 							<div class="lb-item">

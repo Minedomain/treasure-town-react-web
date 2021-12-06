@@ -33,12 +33,15 @@ export default function Contact() {
 		</div>
 	</section> */}
 
-
-	<section class="page-section spad contact-page">
-		<div class="container">
-			{/* <div class="map" id="map-canvas"></div> */}
+	<section class="page-background spad">
+				<div>
+					<div class="cata new"></div>
+					<h2>CONTACT SUPPORT</h2>
+				</div>
+			
+		<div class="container-xl " style={{marginLeft: "500px", marginRight: "450px", paddingTop: "100px"}}>	
 			<div class="row">
-				<div class="col-lg-4 mb-5 mb-lg-0">
+				<div class="section-title">
 					<h4 class="comment-title">Contact Support Team</h4>
 					<p>Questions or concerns regarding the game? Leave us a message</p>
 					<div class="row">
@@ -107,7 +110,7 @@ export default function Contact() {
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Docs</a>
+									<a href="#" class="lb-author" style={{color: "white"}}>Marketplace</a>
 								</div>
 							</div>
 							<div class="lb-item">
