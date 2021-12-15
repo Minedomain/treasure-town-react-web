@@ -89,15 +89,185 @@ export default function Contact() {
     
 
 
-	<section class="review-section spad set-bg" data-setbg="img/review-bg-2.jpg">
+	<section class="review-section spad set-bg" data-setbg="img/review-bg-2.jpg" >
 		<div class="container">
 			<div class="section-title">
 				<div class="cata new"></div>
-				<h2>MARKETPLACE</h2>
+				<h2 style={{marginBottom: "110px", fontFamily: "PirateTreasure"}}>MARKETPLACE</h2>
+				<div class="row rap" >
+					<div class="col-sm-4">
+						<div class="card" style={{backgroundColor: "transparent", border: "none", borderLeft: "3px solid #F43900", borderRight: "3px solid #F43900"}}>
+							<div class="card-body" style={{fontFamily: "PirateTreasure"}}>
+								Total Pirates
+							</div>
+						</div>
+					</div>
+					<div  class="col-sm-4">
+						<div class="card" style={{backgroundColor: "transparent", border: "none", borderLeft: "3px solid #F43900" , borderRight: "3px solid #F43900"}}>
+							<div class="card-body" style={{fontFamily: "PirateTreasure"}}>
+								Total Sale
+							</div>
+						</div>
+					</div>
+					<div  class="col-sm-4">
+						<div class="card" style={{backgroundColor: "transparent", border: "none", borderLeft: "3px solid #F43900" , borderRight: "3px solid #F43900"}}>
+							<div class="card-body" style={{fontFamily: "PirateTreasure"}}>
+								Total Transactions
+							</div>
+						</div>
+					</div>
+				</div>		
 			</div>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<div class="wrap">
+				<div class="search">
+					<input type="text" class="searchTerm" style={{fontFamily: "PirateTreasure"}} placeholder="Search your pirate"/>
+					<button type="submit" class="searchButton">
+						<i class="fa fa-search"></i>
+					</button><br/>
+					<br/>
+					<br/>
+				</div>
+					<div>
+						<button type="button" class="btn" style={{marginRight: "5px", marginBottom: "10px", backgroundColor: "#5F534B", color: "white", fontFamily: "PirateTreasure"}}>All</button>
+						<button type="button" class="btn" style={{marginRight: "5px", marginBottom: "10px", backgroundColor: "#5F534B", color: "white", fontFamily: "PirateTreasure"}}>Swordsman</button>
+						<button type="button" class="btn" style={{marginRight: "5px", marginBottom: "10px", backgroundColor: "#5F534B", color: "white", fontFamily: "PirateTreasure" }}>Viking</button>
+						<button type="button" class="btn" style={{marginRight: "5px", marginBottom: "10px", backgroundColor: "#5F534B", color: "white", fontFamily: "PirateTreasure"}}>Doctor</button>
+						<button type="button" class="btn" style={{marginRight: "5px", marginBottom: "10px", backgroundColor: "#5F534B", color: "white", fontFamily: "PirateTreasure"}}>Witch</button>
+						<button type="button" class="btn" style={{marginRight: "5px", marginBottom: "10px", backgroundColor: "#5F534B", color: "white", fontFamily: "PirateTreasure"}}>Gunman</button>
+					</div>
+					<br/>
+					<br/>
+				<div class="row nowrap" style={{display: "flex"}}>
+					<div class="col-sm-4">
+						<label for="customRange3" class="form-label" style={{fontFamily: "PirateTreasure"}}>Health</label><br/>
+						<input type="range" class="form-range" min="0" max="100" step="0.5" id="customRange3"/><br/>
+						<label for="customRange3" class="form-label" style={{fontFamily: "PirateTreasure"}}>1-100</label>
+					</div>
+					<div class="col-sm-4">
+						<label for="customRange3" class="form-label" style={{fontFamily: "PirateTreasure"}}>Strength</label><br/>
+						<input type="range" class="form-range" min="0" max="100" step="0.5" id="customRange3"/><br/>
+						<label for="customRange3" class="form-label" style={{fontFamily: "PirateTreasure"}}>1-100</label>
+					</div>
+					<div class="col-sm-4">
+						<label for="customRange3" class="form-label" style={{fontFamily: "PirateTreasure"}}>Intelligence</label><br/>
+						<input type="range" class="form-range" min="0" max="100" step="0.5" id="customRange3"/><br/>
+						<label for="customRange3" class="form-label" style={{fontFamily: "PirateTreasure"}}>1-100</label>
+					</div>
+				</div>
+			</div>
+			<br/>
+
 		</div>
 	</section>
+
+	
+	
+	
+
      
+	<section class="review-section spad set-bg" data-setbg="img/review-bg-2.jpg" style={{marginTop: "-300px"}}>
+		<div class="container-xl" style={{marginLeft: "100px", marginRight: "100px"}}>
+				<div class="row row-cols-1 row-cols-sm-3 mb-5">
+			<div class="col-sm-3">
+				<div class="card" style={{borderRadius: "20px", backgroundColor: "#272119", marginBottom: "15px"}}>
+				<img src="assets/img/Vikings.png" class="card-img-top" alt="..."/>
+				<div class="card-body">
+					<h5 class="card-title" style={{color: "white", fontFamily: "PirateTreasure"}}>Viking</h5>
+					<p class="card-text" style={{color: "white", fontFamily: "PirateTreasure"}}>High Health, Mid Strength, Low Intelligence</p>
+				</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="card" style={{borderRadius: "20px", backgroundColor: "#272119" , marginBottom: "15px"}}>
+				<img src="assets/img/swords.png" class="card-img-top" alt="..."/>
+				<div class="card-body">
+					<h5 class="card-title" style={{color: "white", fontFamily: "PirateTreasure"}}>Swordsman</h5>
+					<p class="card-text" style={{color: "white", fontFamily: "PirateTreasure"}}>Low Health, High Strength, Mid Intelligence</p>
+				</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="card" style={{borderRadius: "20px", backgroundColor: "#272119" , marginBottom: "15px"}}>
+				<img src="assets/img/Gunman.png" class="card-img-top" alt="..."/>
+				<div class="card-body">
+					<h5 class="card-title" style={{color: "white", fontFamily: "PirateTreasure"}}>Gunman</h5>
+					<p class="card-text" style={{color: "white", fontFamily: "PirateTreasure"}}>Mid Health, High Strength, Low Intelligence</p>
+				</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="card" style={{borderRadius: "20px", backgroundColor: "#272119" , marginBottom: "15px"}}>
+				<img src="assets/img/Doctor.png" class="card-img-top" alt="..."/>
+				<div class="card-body">
+					<h5 class="card-title" style={{color: "white", fontFamily: "PirateTreasure"}}>Doctor</h5>
+					<p class="card-text" style={{color: "white", fontFamily: "PirateTreasure"}}>High Health, Low Strength, Mid Intelligence</p>
+				</div>
+				</div>
+			</div>
+			<div class="col-sm-3" >
+				<div class="card" style={{borderRadius: "20px", backgroundColor: "#272119", marginBottom: "15px"}}>
+				<img src="assets/img/Witch.png" class="card-img-top" alt="..."/>
+				<div class="card-body">
+					<h5 class="card-title" style={{color: "white", fontFamily: "PirateTreasure"}}>Witch</h5>
+					<p class="card-text" style={{color: "white", fontFamily: "PirateTreasure"}}>Low Health, Mid Strength, High Intelligence</p>
+				</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="card" style={{borderRadius: "20px", backgroundColor: "#272119" , marginBottom: "15px"}}>
+				<img src="assets/img/Doctor.png" class="card-img-top" alt="..."/>
+				<div class="card-body">
+					<h5 class="card-title" style={{color: "white", fontFamily: "PirateTreasure"}}>Doctor</h5>
+					<p class="card-text" style={{color: "white", fontFamily: "PirateTreasure"}}>High Health, Low Strength, Mid Intelligence</p>
+				</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="card" style={{borderRadius: "20px", backgroundColor: "#272119" , marginBottom: "15px"}}>
+				<img src="assets/img/Vikings.png" class="card-img-top" alt="..."/>
+				<div class="card-body">
+					<h5 class="card-title" style={{color: "white", fontFamily: "PirateTreasure"}}>Viking</h5>
+					<p class="card-text" style={{color: "white", fontFamily: "PirateTreasure"}}>High Health, Mid Strength, Low Intelligence</p>
+				</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="card" style={{borderRadius: "20px", backgroundColor: "#272119" , marginBottom: "15px"}}>
+				<img src="assets/img/Gunman.png" class="card-img-top" alt="..."/>
+				<div class="card-body" >
+					<h5 class="card-title" style={{color: "white", fontFamily: "PirateTreasure"}}>Gunman</h5>
+					<p class="card-text" style={{color: "white", fontFamily: "PirateTreasure"}}>Mid Health, High Strength, Low Intelligence</p>
+				</div>
+				</div>
+			</div>
+			</div>
+			</div>
+			
+	</section>
+	
+	<section class="review-section spad" data-setbg="img/review-bg-2.jpg" >
+		<nav aria-label="Page navigation example" >
+			<ul class="pagination justify-content-center mb-0">
+				<li class="page-item" >
+				<a class="page-link" href="#" aria-label="Previous" style={{backgroundColor: "#272119", color: "white"}}>
+					<span aria-hidden="true">&laquo;</span>
+				</a>
+				</li>
+				<li class="page-item" style={{fontFamily: "PirateTreasure"}}><a class="page-link" href="#" style={{backgroundColor: "#272119", color: "white"}}>1</a></li>
+				<li class="page-item" style={{fontFamily: "PirateTreasure"}}><a class="page-link" href="#" style={{backgroundColor: "#272119", color: "white"}}>2</a></li>
+				<li class="page-item" style={{fontFamily: "PirateTreasure"}}><a class="page-link" href="#" style={{backgroundColor: "#272119", color: "white"}}>3</a></li>
+				<li class="page-item">
+				<a class="page-link" href="#" aria-label="Next" style={{backgroundColor: "#272119", color: "white"}}>
+					<span aria-hidden="true">&raquo;</span>
+				</a>
+				</li>
+			</ul>
+		</nav>
+	</section>
 
 
 	<section class="footer-top-section">
@@ -114,36 +284,36 @@ export default function Contact() {
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-widget mb-5 mb-md-0">
-						<h4 class="fw-title" style={{color: "#a5682a"}}>Links</h4>
+						<h4 class="fw-title" style={{color: "#a5682a", fontFamily: "PirateTreasure"}}>Links</h4>
 						<div class="latest-blog" >
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Home</a>
+									<a href="#" class="lb-author"style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Home</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Marketplace</a>
+									<a href="#" class="lb-author"style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Marketplace</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Roadmap</a>
+									<a href="#" class="lb-author"style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Roadmap</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Whitepaper</a>
+									<a href="#" class="lb-author"style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Whitepaper</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Help</a>
+									<a href="#" class="lb-author"style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Help</a>
 								</div>
 							</div>
 						</div>
@@ -151,23 +321,23 @@ export default function Contact() {
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-widget">
-						<h4 class="fw-title" style={{color: "#a5682a"}}>Social Links</h4>
+						<h4 class="fw-title" style={{color: "#a5682a", fontFamily: "PirateTreasure"}}>Social Links</h4>
 						<div class="top-comment">
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i class="fa fa-facebook" style={{marginRight: "10px"}}></i>Facebook</a>
+								<a href="#" class="lb-author"style={{color: "#DDB376", fontFamily: "PirateTreasure"}}><i class="fa fa-facebook" style={{marginRight: "10px"}}></i>Facebook</a>
 							</div>
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i class="fa fa-telegram" style={{marginRight: "10px"}}></i>Telegram</a>
+								<a href="#" class="lb-author"style={{color: "#DDB376", fontFamily: "PirateTreasure"}}><i class="fa fa-telegram" style={{marginRight: "10px"}}></i>Telegram</a>
 							</div>
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i class="fa fa-twitter" style={{marginRight: "10px"}}></i>Twitter</a>
+								<a href="#" class="lb-author"style={{color: "#DDB376", fontFamily: "PirateTreasure"}}><i class="fa fa-twitter" style={{marginRight: "10px"}}></i>Twitter</a>
 							</div>
 							
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i class="fab" style={{marginRight: "10px"}}></i>Discord</a>
+								<a href="#" class="lb-author"style={{color: "#DDB376", fontFamily: "PirateTreasure"}}><i class="fab" style={{marginRight: "10px"}}></i>Discord</a>
 							</div>
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i style={{marginRight: "10px"}}></i></a>
+								<a href="#" class="lb-author"style={{color: "#DDB376", fontFamily: "PirateTreasure"}}><i style={{marginRight: "10px"}}></i></a>
 							</div>
 						</div>
 					</div>

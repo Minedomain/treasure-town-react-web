@@ -13,7 +13,7 @@ export default function Footer() {
 					<li><Link to="/forum">Forum</Link></li>
 					<li><Link to="/contact">Contact</Link></li> */}
 			</ul>
-			<p class="copyright">
+			<p class="copyright" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>
 Copyright &copy; <a>Under development</a>
 </p>
 		</div>

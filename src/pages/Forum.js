@@ -44,9 +44,16 @@ export default function Forum() {
 			<div class="container">
 				<div class="section-title">
 					<div class="cata new"></div>
-					<h2>WHITEPAPER</h2>
+					<h2 style={{fontFamily: "PirateTreasure"}}>WHITEPAPER</h2>
 				</div>
 			</div>
+	</section>
+
+	<section class="review-section spad set-bg" data-setbg="img/review-bg-2.jpg">
+		<div class="container">
+			<div class="section-title">
+			</div>
+		</div>
 	</section>
 
 	{/* <section class="page-section community-page set-bg" data-setbg="img/community-bg.jpg">
@@ -166,36 +173,36 @@ export default function Forum() {
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-widget mb-5 mb-md-0">
-						<h4 class="fw-title" style={{color: "#a5682a"}}>Links</h4>
+						<h4 class="fw-title" style={{color: "#a5682a", fontFamily: "PirateTreasure"}}>Links</h4>
 						<div class="latest-blog" >
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Home</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Home</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Marketplace</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Marketplace</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Roadmap</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Roadmap</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Whitepaper</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Whitepaper</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Help</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Help</a>
 								</div>
 							</div>
 						</div>
@@ -203,23 +210,23 @@ export default function Forum() {
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-widget">
-						<h4 class="fw-title" style={{color: "#a5682a"}}>Social Links</h4>
+						<h4 class="fw-title" style={{color: "#a5682a", fontFamily: "PirateTreasure"}}>Social Links</h4>
 						<div class="top-comment">
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i class="fa fa-facebook" style={{marginRight: "10px"}}></i>Facebook</a>
+								<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}><i class="fa fa-facebook" style={{marginRight: "10px"}}></i>Facebook</a>
 							</div>
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i class="fa fa-telegram" style={{marginRight: "10px"}}></i>Telegram</a>
+								<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}><i class="fa fa-telegram" style={{marginRight: "10px"}}></i>Telegram</a>
 							</div>
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i class="fa fa-twitter" style={{marginRight: "10px"}}></i>Twitter</a>
+								<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}><i class="fa fa-twitter" style={{marginRight: "10px"}}></i>Twitter</a>
 							</div>
 							
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i class="fab" style={{marginRight: "10px"}}></i>Discord</a>
+								<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}><i class="fab" style={{marginRight: "10px"}}></i>Discord</a>
 							</div>
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i style={{marginRight: "10px"}}></i></a>
+								<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}><i style={{marginRight: "10px"}}></i></a>
 							</div>
 						</div>
 					</div>

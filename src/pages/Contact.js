@@ -33,56 +33,59 @@ export default function Contact() {
 		</div>
 	</section> */}
 
-	<section class="page-background spad">
-				<div>
-					<div class="cata new"></div>
-					<h2>CONTACT SUPPORT</h2>
-				</div>
-			
-		<div class="container-xl " style={{marginLeft: "500px", marginRight: "450px", paddingTop: "100px"}}>	
-			<div class="row">
-				<div class="section-title">
-					<h4 class="comment-title">Contact Support Team</h4>
-					<p>Questions or concerns regarding the game? Leave us a message</p>
-					<div class="row">
-						<div class="col-md-9">
-							<ul class="contact-info-list">
-								<li><div class="cf-left">Address</div><div class="cf-right">Manila, Philippines</div></li>
-								<li><div class="cf-left">Phone</div><div class="cf-right">+98 765 43210</div></li>
-								<li><div class="cf-left">E-mail</div><div class="cf-right">ttownsupport@gmail.com</div></li>
-							</ul>
-						</div>
-					</div>
-					<div class="social-links">
-						<a href="#"><i class="fa fa-telegram"></i></a>
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-8">
-					<div class="contact-form-warp">
-						<h4 class="comment-title">QUESTION OR CONCERN</h4>
-						<form class="comment-form">
-							<div class="row">
-								<div class="col-md-6">
-									<input type="text" placeholder="Name"/>
-								</div>
-								<div class="col-md-6">
-									<input type="email" placeholder="Email"/>
-								</div>
-								<div class="col-lg-12">
-									<input type="text" placeholder="Subject"/>
-									<textarea placeholder="Message"></textarea>
-									<button class="site-btn btn-sm">Send</button>
+
+	
+	<section class="page-background spad" >
+					<div class="container spad" >
+						<div class="section-title spad" style={{display: "inline-block", marginTop: "100px"}}>
+							<div class="mt-5">
+								<div class="cata new mt-5" ></div>
+										<h2 style={{fontFamily: "PirateTreasure"}}>Contact Support</h2>
+							</div>
+							
+										<div class="row mt-5">
+											<div class="col-md-4">
+												<h4 style={{fontFamily: "PirateTreasure", color: "#F43900"}}>Address</h4>
+													<p style={{fontFamily: "PirateTreasure"}}>Manila, Philippines</p>
+											</div>
+											<div class="col-md-4">
+												<h4 style={{fontFamily: "PirateTreasure", color: "#F43900"}}>Phone</h4>
+													<p style={{fontFamily: "PirateTreasure"}}>+63 9876 543 210</p>
+											</div>
+											<div class="col-md-4">
+												<h4 style={{fontFamily: "PirateTreasure", color: "#F43900"}}>Email</h4>
+													<p style={{fontFamily: "PirateTreasure"}}>ttownhelpsupport@gmail.com</p>
+											</div>
+										</div>
+
+							<div>	
+								<div class="col">				
+									<div class="contact-form-warp">
+										<div class="mt-5 mb-5">
+											<h3  style={{fontFamily: "PirateTreasure"}}>Questions or concerns regarding the game? <br/>Leave us a message</h3>
+										</div>
+										<form class="comment-form">
+											<div class="row">
+												<div class="col-md-6">
+													<input type="text" placeholder="Name" style={{fontFamily: "PirateTreasure"}}></input>
+												</div>
+												<div class="col-md-6">
+													<input type="email" placeholder="Email" style={{fontFamily: "PirateTreasure"}}></input>
+												</div>
+												<div class="col-lg-12">
+													<input type="text" placeholder="Subject" style={{fontFamily: "PirateTreasure"}}></input>
+													<textarea placeholder="Message" style={{fontFamily: "PirateTreasure"}}></textarea>
+													<button class="site-btn btn-sm " style={{fontFamily: "PirateTreasure"}}>Send</button>
+												</div>
+												
+											</div>
+										</form>
+									</div>
 								</div>
 							</div>
-						</form>
+						</div>	
 					</div>
-				</div>
-			</div>
-		</div>
 	</section>
-
 
 
 	<section class="footer-top-section">
@@ -99,36 +102,36 @@ export default function Contact() {
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-widget mb-5 mb-md-0">
-						<h4 class="fw-title" style={{color: "#a5682a"}}>Links</h4>
+						<h4 class="fw-title" style={{color: "#a5682a", fontFamily: "PirateTreasure"}}>Links</h4>
 						<div class="latest-blog" >
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Home</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376" , fontFamily: "PirateTreasure"}}>Home</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Marketplace</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376" , fontFamily: "PirateTreasure"}}>Marketplace</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Roadmap</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376" , fontFamily: "PirateTreasure"}}>Roadmap</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Whitepaper</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376" , fontFamily: "PirateTreasure"}}>#DDB376paper</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "white"}}>Help</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376" , fontFamily: "PirateTreasure"}}>Help</a>
 								</div>
 							</div>
 						</div>
@@ -136,23 +139,23 @@ export default function Contact() {
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-widget">
-						<h4 class="fw-title" style={{color: "#a5682a"}}>Social Links</h4>
+						<h4 class="fw-title" style={{color: "#a5682a" , fontFamily: "PirateTreasure"}}>Social Links</h4>
 						<div class="top-comment">
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i class="fa fa-facebook" style={{marginRight: "10px"}}></i>Facebook</a>
+								<a href="#" class="lb-author" style={{color: "#DDB376" , fontFamily: "PirateTreasure"}}><i class="fa fa-facebook" style={{marginRight: "10px"}}></i>Facebook</a>
 							</div>
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i class="fa fa-telegram" style={{marginRight: "10px"}}></i>Telegram</a>
+								<a href="#" class="lb-author" style={{color: "#DDB376" , fontFamily: "PirateTreasure"}}><i class="fa fa-telegram" style={{marginRight: "10px"}}></i>Telegram</a>
 							</div>
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i class="fa fa-twitter" style={{marginRight: "10px"}}></i>Twitter</a>
+								<a href="#" class="lb-author" style={{color: "#DDB376" , fontFamily: "PirateTreasure"}}><i class="fa fa-twitter" style={{marginRight: "10px"}}></i>Twitter</a>
 							</div>
 							
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i class="fab" style={{marginRight: "10px"}}></i>Discord</a>
+								<a href="#" class="lb-author" style={{color: "#DDB376" , fontFamily: "PirateTreasure"}}><i class="fab" style={{marginRight: "10px"}}></i>Discord</a>
 							</div>
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "white"}}><i style={{marginRight: "10px"}}></i></a>
+								<a href="#" class="lb-author" style={{color: "#DDB376" , fontFamily: "PirateTreasure"}}><i style={{marginRight: "10px"}}></i></a>
 							</div>
 						</div>
 					</div>

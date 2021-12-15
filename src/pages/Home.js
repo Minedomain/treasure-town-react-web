@@ -8,11 +8,11 @@ export default class Home extends Component {
 		const settings = {
 			dots: true,
 			infinite: true,
-			slidesToShow: 3,
+			slidesToShow: 2,
 			slidesToScroll: 1,
 			autoplay: true,
-			speed: 2000,
-			autoplaySpeed: 2000,
+			speed: 3000,
+			autoplaySpeed: 3000,
 		  };
     return (
         <React.Fragment>
@@ -111,10 +111,10 @@ export default class Home extends Component {
 	{/* </section> */}
 
 	<section class="review-section spad">
-	<div class="container-xl" style={{marginLeft: "100px", marginRight: "100px"}}>
+	<div class="container-xl" style={{marginLeft: "150px", marginRight: "150px"}}>
 		<div class="section-title">
 				<div class="cata new"></div>
-				<h2>TREASURE TOWN GAMES</h2>
+				<h2 style={{fontFamily: "PirateTreasure"}}>TREASURE TOWN GAMES</h2>
 			</div>
         <Slider {...settings} style={{marginTop: "-100px"}}>
           <div class="col">
@@ -148,9 +148,9 @@ export default class Home extends Component {
 						<div class="ti-content">
 							<div class="ti-thumb set-bg" data-setbg="assets/img/tournament/1.jpg"></div>
 							<div class="ti-text" style={{justifyContent: "left", textAlign: "left"}}> 
-							<div class="ti-notic">TOKENOMICS</div>
-								<h4>$SQUAWK</h4>
-								<ul>
+							<div class="ti-notic" style={{fontFamily: "PirateTreasure"}} >TOKENOMICS</div>
+								<h4 style={{fontFamily: "PirateTreasure"}}>$SQUAWK</h4>
+								<ul style={{fontFamily: "PirateTreasure"}}>
 									<li><span>Name:</span> Treasure Town</li>
 									<li><span>Max. Supply:</span> 1,xxx,xxx,xxx $SQUAWK</li>
 									<li><span>Network:</span> </li>
@@ -178,14 +178,17 @@ export default class Home extends Component {
 		<div class="container-xl" style={{marginLeft: "100px", marginRight: "100px", paddingBottom: "100px"}}>
 			<div class="section-title">
 				<div class="cata new"></div>
-				<h2>OUR TEAM</h2>
+				<h2 style={{fontFamily: "PirateTreasure"}}>OUR TEAM</h2>
 			</div>
 			<div class="row" style={{marginTop: "-100px"}}>
 				<div class="col-md-3">
 					<div class="container2">
 						<img src="assets/img/img_avatar.png" alt="Avatar" class="image"/>
 						<div class="overlay2">
-							<div class="text2">TRY</div>
+							<div class="text2">
+								<h3 style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Imran Kyle Balunan</h3>
+								<p style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Software Developer</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -193,15 +196,21 @@ export default class Home extends Component {
 					<div class="container3">
 						<img src="assets/img/img_avatar.png" alt="Avatar" class="image"/>
 						<div class="overlay3">
-							<div class="text3">TRY</div>
-						</div>
+								<div class="text2">
+									<h3 style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Dave Yatco</h3>
+									<p style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Software Developer</p>
+								</div>
+							</div>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="container4">
 						<img src="assets/img/img_avatar.png" alt="Avatar" class="image"/>
 						<div class="overlay4">
-							<div class="text4">TRY</div>
+							<div class="text2">
+								<h3 style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Carlo Cobarrubias</h3>
+								<p style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Software Developer</p>
+							</div>	
 						</div>
 					</div>
 				</div>
@@ -209,12 +218,15 @@ export default class Home extends Component {
 					<div class="container5">
 						<img src="assets/img/img_avatar.png" alt="Avatar" class="image"/>
 						<div class="overlay5">
-							<div class="text5">TRY</div>
+							<div class="text2">
+								<h3 style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Arvin Jay Iballa</h3>
+								<p style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Software Developer</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			{/* <div class="row">
 				<div class="col-md-3">
 					<div class="container2">
 						<img src="assets/img/img_avatar.png" alt="Avatar" class="image"/>
@@ -247,7 +259,7 @@ export default class Home extends Component {
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	</section>
 
@@ -268,36 +280,36 @@ export default class Home extends Component {
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-widget mb-5 mb-md-0">
-						<h4 class="fw-title" style={{color: "#DDB376"}}>Links</h4>
+						<h4 class="fw-title" style={{color: "#a5682a", fontFamily: "PirateTreasure"}}>Links</h4>
 						<div class="latest-blog" >
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "#DDB376"}}>Home</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Home</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "#DDB376"}}>Marketplace</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Marketplace</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "#DDB376"}}>Roadmap</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Roadmap</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "#DDB376"}}>Whitepaper</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Whitepaper</a>
 								</div>
 							</div>
 							<div class="lb-item">
 								<div ></div>
 								<div>					
-									<a href="#" class="lb-author" style={{color: "#DDB376"}}>Help</a>
+									<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}>Help</a>
 								</div>
 							</div>
 						</div>
@@ -305,23 +317,23 @@ export default class Home extends Component {
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-widget">
-						<h4 class="fw-title" style={{color: "#DDB376"}}>Social Links</h4>
+						<h4 class="fw-title" style={{color: "#a5682a", fontFamily: "PirateTreasure"}}>Social Links</h4>
 						<div class="top-comment">
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "#DDB376"}}><i class="fa fa-facebook" style={{marginRight: "10px"}}></i>Facebook</a>
+								<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}><i class="fa fa-facebook" style={{marginRight: "10px"}}></i>Facebook</a>
 							</div>
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "#DDB376"}}><i class="fa fa-telegram" style={{marginRight: "10px"}}></i>Telegram</a>
+								<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}><i class="fa fa-telegram" style={{marginRight: "10px"}}></i>Telegram</a>
 							</div>
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "#DDB376"}}><i class="fa fa-twitter" style={{marginRight: "10px"}}></i>Twitter</a>
+								<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}><i class="fa fa-twitter" style={{marginRight: "10px"}}></i>Twitter</a>
 							</div>
 							
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "#DDB376"}}><i class="fab" style={{marginRight: "10px"}}></i>Discord</a>
+								<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}><i class="fab" style={{marginRight: "10px"}}></i>Discord</a>
 							</div>
 							<div class="tc-item">
-								<a href="#" class="lb-author" style={{color: "#DDB376"}}><i style={{marginRight: "10px"}}></i></a>
+								<a href="#" class="lb-author" style={{color: "#DDB376", fontFamily: "PirateTreasure"}}><i style={{marginRight: "10px"}}></i></a>
 							</div>
 						</div>
 					</div>
