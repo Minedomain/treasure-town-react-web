@@ -1,9 +1,11 @@
 import React, {useState, useRef} from 'react';
-import { Nav, NavbarContainer, HomeTitle, Home, HomeDiv, TitleIcon, Hamburger, Menu, MenuLink } from './ElementsNavbar';
+import { Nav, TitleIcon, Hamburger, Menu, MenuLink } from './ElementsNavbar';
 import {IMAGES} from '../../assets'
 
 
 const Navbar = () => {
+
+  const [isOpen, setIsOpen] = useState(false);
   const ref = useRef(null);
 
   // check width
@@ -14,21 +16,15 @@ const Navbar = () => {
 
   return (
     <Nav>
-      <NavbarContainer>
-        {/* LEFT SIDE */}
-        <HomeDiv>
-          <Home to="/">
-            <TitleIcon src={IMAGES.treasure_icon} alt="Treasure-Town"/>
-            { width < 660 ? null :
-            <HomeTitle>Treasure Town</HomeTitle>
-            }
-          </Home>
-        </HomeDiv>
-      </NavbarContainer>
-      <Hamburger>
-
+      <TitleIcon src={IMAGES.toucan_icon} alt="Treasure-Town"/>
+      <Hamburger onClick={() => setIsOpen(!isOpen)}>
+        <span />
+        <span />
+        <span />
       </Hamburger>
-      <Menu>
+      
+      <Menu isOpen={isOpen}>
+      
           <MenuLink to="/">Home</MenuLink>
           <MenuLink to="/review">Marketplace</MenuLink>
           <MenuLink to="/blog">Roadmap</MenuLink>

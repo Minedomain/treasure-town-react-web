@@ -7,6 +7,8 @@ import pearl_icon from './images/pearl_icon.png'
 import potion_icon from './images/potion_icon.png'
 import jewel_icon from './images/jewel_icon.png'
 import tarot_icon from './images/tarot_icon.png'
+import toucan_icon from './images/toucan_icon.png'
+import toucan2_icon from './images/toucan2_icon.png'
 
 import treasure_icon from './images/treasure_icon.png'
 import squawk_icon from './images/squawk_icon.png'
@@ -14,6 +16,7 @@ import ust_icon from './images/ust_icon.png'
 
 import metamask_icon from './images/metamask_icon.png'
 import loading_gif from './gifs/loading_gif.gif'
+
 
 export const IMAGES = {
   prequel_bg,
@@ -25,7 +28,8 @@ export const IMAGES = {
   potion_icon,
   jewel_icon,
   tarot_icon,
-
+  toucan_icon,
+  toucan2_icon,
   treasure_icon,
   squawk_icon,
   ust_icon,
