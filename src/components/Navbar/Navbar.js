@@ -28,7 +28,7 @@ const Navbar = () => {
           <MenuLink to="/">Home</MenuLink>
           <MenuLink to="/review">Marketplace</MenuLink>
           <MenuLink to="/blog">Roadmap</MenuLink>
-          <MenuLink to="/forum">Whitepaper</MenuLink>
+          <MenuLink to={{ pathname: "https://imranbalunan12.gitbook.io/untitled/" }} target="_blank">Whitepaper</MenuLink>
           <MenuLink to="/contact">Help</MenuLink>
       </Menu>
     </Nav>
