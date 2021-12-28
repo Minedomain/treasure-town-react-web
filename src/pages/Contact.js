@@ -5,36 +5,8 @@ import Footer from './Footer'
 export default function Contact() {
     return (
         <React.Fragment>
-<Navbar />
+	<Navbar />
 
-
-	{/* <div class="latest-news-section">
-		<div class="ln-title">Latest News</div>
-		<div class="news-ticker">
-			<div class="news-ticker-contant">
-				<div class="nt-item"><span class="new">new</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
-				<div class="nt-item"><span class="strategy">strategy</span>Isum dolor sit amet, consectetur adipiscing elit. </div>
-				<div class="nt-item"><span class="racing">racing</span>Isum dolor sit amet, consectetur adipiscing elit. </div>
-			</div>
-		</div>
-	</div> */}
-
-{/* 
-	<section class="page-info-section set-bg" data-setbg="img/page-top-bg/5.jpg">
-		<div class="pi-content">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-5 col-lg-6 text-white">
-						<h2>Contact us</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> */}
-
-
-	
 	<section class="page-background spad" >
 					<div class="container spad" >
 						<div class="section-title spad" style={{display: "inline-block", marginTop: "100px"}}>

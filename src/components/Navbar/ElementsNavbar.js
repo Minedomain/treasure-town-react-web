@@ -1,8 +1,5 @@
 import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom';
-import {IoIosAddCircle} from 'react-icons/io'
-import {AiOutlineQuestionCircle} from 'react-icons/ai'
-import {HiOutlineCheckCircle} from 'react-icons/hi'
 
 export const Nav = styled.nav`
 background: rgba(0,0,0,0.7);
